@@ -1,0 +1,22 @@
+{D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv} {1 {vlog -work work -sv -stats=none {D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Led7seg.v} {1 {vlog -work work -stats=none {D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Led7seg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Led7seg
+
+Top level modules:
+	Led7seg
+
+} {} {}} {D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v} {1 {vlog -work work -stats=none {D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Downcounter
+
+Top level modules:
+	Downcounter
+
+} {} {}}

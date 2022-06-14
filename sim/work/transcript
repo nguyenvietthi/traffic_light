@@ -1,0 +1,249 @@
+# vsim . 
+# Start time: 02:56:57 on Jun 15,2022
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Error loading design
+# End time: 02:56:57 on Jun 15,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Loading project traffic_light
+# Compile of tb.sv was successful.
+# Compile of Divide_freg.v was successful.
+# Compile of Downcounter.v was successful.
+# Compile of Led7seg.v was successful.
+# Compile of State.v was successful.
+# Compile of Traffic_Light.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.tb
+# vsim work.tb 
+# Start time: 03:01:28 on Jun 15,2022
+# Loading sv_std.std
+# Loading work.tb
+# Compile of tb.sv was successful.
+restart
+# Loading work.tb
+# ** Error: (vsim-3037) D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(38): Missing instance name in instantiation of 'Traffic_Light'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv
+vsim work.tb
+# vsim work.tb 
+# Start time: 03:01:28 on Jun 15,2022
+# Loading sv_std.std
+# Loading work.tb
+# ** Error: (vsim-3037) D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(38): Missing instance name in instantiation of 'Traffic_Light'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv
+# Error loading design
+# End time: 03:02:35 on Jun 15,2022, Elapsed time: 0:01:07
+# Errors: 2, Warnings: 0
+# Compile of tb.sv was successful.
+vsim work.tb
+# vsim work.tb 
+# Start time: 03:03:15 on Jun 15,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.Traffic_Light
+# Loading work.Divide_freg
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/F1 File: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Divide_freg.v
+# Loading work.Downcounter
+# Loading work.State
+# Loading work.Led7seg
+# Error loading design
+# End time: 03:03:15 on Jun 15,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of tb.sv was successful.
+vsim work.tb
+# vsim work.tb 
+# Start time: 03:03:52 on Jun 15,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.Traffic_Light
+# Loading work.Divide_freg
+# Loading work.Downcounter
+# Loading work.State
+# Loading work.Led7seg
+add wave -position insertpoint  \
+sim:/tb/clk50M \
+sim:/tb/Reset \
+sim:/tb/HEX0 \
+sim:/tb/HEX1 \
+sim:/tb/HEX2 \
+sim:/tb/HEX3 \
+sim:/tb/LR1 \
+sim:/tb/LR2 \
+sim:/tb/LG1 \
+sim:/tb/LG2 \
+sim:/tb/LY1 \
+sim:/tb/LY2
+run -all
+# Compile of tb.sv was successful.
+restart
+# Loading work.tb
+run -all
+# ** Note: $finish    : D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(24)
+#    Time: 200020 ns  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv line 24
+# Compile of tb.sv was successful.
+restart
+# Loading work.tb
+run -all
+# ** Note: $finish    : D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(26)
+#    Time: 200040 ns  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv line 26
+add wave -position insertpoint  \
+sim:/tb/DUT/F1/divide_count \
+sim:/tb/DUT/F1/clk50M \
+sim:/tb/DUT/F1/Reset \
+sim:/tb/DUT/F1/clk1 \
+sim:/tb/DUT/F1/rst \
+sim:/tb/DUT/F1/count
+restart
+run -all
+# ** Note: $finish    : D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(26)
+#    Time: 200040 ns  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv line 26
+add wave -position insertpoint  \
+sim:/tb/DUT/F2/count_timeout25 \
+sim:/tb/DUT/F2/count_timeout30 \
+sim:/tb/DUT/F2/clk1 \
+sim:/tb/DUT/F2/rst \
+sim:/tb/DUT/F2/timeout30 \
+sim:/tb/DUT/F2/timeout25 \
+sim:/tb/DUT/F2/Count
+restart
+run -all
+# ** Note: $finish    : D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(26)
+#    Time: 200040 ns  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv line 26
+# Compile of tb.sv was successful.
+# Compile of Divide_freg.v was successful.
+# Compile of Downcounter.v was successful.
+# Compile of Led7seg.v was successful.
+# Compile of State.v was successful.
+# Compile of Traffic_Light.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.tb
+# Loading work.Traffic_Light
+# Loading work.Divide_freg
+# Loading work.Downcounter
+# Loading work.State
+# Loading work.Led7seg
+# Load canceled
+run -all
+# Compile of tb.sv was successful.
+# Compile of Divide_freg.v was successful.
+# Compile of Downcounter.v was successful.
+# Compile of Led7seg.v was successful.
+# Compile of State.v was successful.
+# Compile of Traffic_Light.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.tb
+# Loading work.Traffic_Light
+# Loading work.Divide_freg
+# Loading work.Downcounter
+# Loading work.State
+# Loading work.Led7seg
+run -all
+add wave -position insertpoint  \
+sim:/tb/DUT/F3/state_reg
+restart
+run -all
+# Compile of Downcounter.v failed with 1 errors.
+# Compile of State.v failed with 2 errors.
+# Compile of Traffic_Light.v was successful.
+# 3 compiles, 2 failed with 3 errors.
+# Compile of Downcounter.v failed with 1 errors.
+# Compile of State.v was successful.
+# Compile of Traffic_Light.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of Downcounter.v was successful.
+restart
+# Loading work.Traffic_Light
+# Loading work.Downcounter
+# Loading work.State
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/DUT/F2/count_timeout25'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/DUT/F2/count_timeout30'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/DUT/F2/timeout30'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/DUT/F2/timeout25'. 
+vsim work.tb
+# End time: 03:48:12 on Jun 15,2022, Elapsed time: 0:44:20
+# Errors: 5, Warnings: 0
+# vsim work.tb 
+# Start time: 03:48:12 on Jun 15,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.Traffic_Light
+# Loading work.Divide_freg
+# Loading work.Downcounter
+# Loading work.State
+# Loading work.Led7seg
+add wave -position insertpoint  \
+sim:/tb/DUT/F3/state_reg
+add wave -position insertpoint  \
+sim:/tb/DUT/F3/LR1 \
+sim:/tb/DUT/F3/LR2 \
+sim:/tb/DUT/F3/LG1 \
+sim:/tb/DUT/F3/LG2 \
+sim:/tb/DUT/F3/LY1 \
+sim:/tb/DUT/F3/LY2
+add wave -position insertpoint  \
+sim:/tb/DUT/F2/Count
+add wave -position insertpoint  \
+sim:/tb/DUT/F2/timeout45 \
+sim:/tb/DUT/F2/timeout75 \
+sim:/tb/DUT/F2/timeout80
+run -all
+# Compile of Downcounter.v was successful.
+restart
+# Loading work.Downcounter
+# ** Warning: (vsim-3015) D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v(19): [PCDPC] - Port size (7) does not match connection size (5) for port 'Count'. The port definition is at: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/F2 File: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v
+run -all
+# Compile of tb.sv was successful.
+# Compile of Divide_freg.v was successful.
+# Compile of Downcounter.v was successful.
+# Compile of Led7seg.v was successful.
+# Compile of State.v was successful.
+# Compile of Traffic_Light.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.tb
+# Loading work.Traffic_Light
+# Loading work.Divide_freg
+# Loading work.Downcounter
+# Loading work.State
+# Loading work.Led7seg
+# ** Warning: (vsim-3015) D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v(19): [PCDPC] - Port size (7) does not match connection size (5) for port 'Count'. The port definition is at: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/F2 File: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v
+run -all
+# Compile of tb.sv was successful.
+# Compile of Divide_freg.v was successful.
+# Compile of Downcounter.v was successful.
+# Compile of Led7seg.v was successful.
+# Compile of State.v was successful.
+# Compile of Traffic_Light.v was successful.
+# 6 compiles, 0 failed with no errors.
+restart
+# Loading work.tb
+# Loading work.Traffic_Light
+# Loading work.Divide_freg
+# Loading work.Downcounter
+# Loading work.State
+# Loading work.Led7seg
+# ** Warning: (vsim-3015) D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v(19): [PCDPC] - Port size (7) does not match connection size (5) for port 'Count'. The port definition is at: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/F2 File: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v
+run -all
+# ** Note: $finish    : D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(26)
+#    Time: 2000000040 ns  Iteration: 1  Instance: /tb
+# Compile of tb.sv was successful.
+# Compile of Divide_freg.v failed with 1 errors.
+# Compile of Downcounter.v was successful.
+# Compile of Led7seg.v was successful.
+# Compile of State.v was successful.
+# Compile of Traffic_Light.v was successful.
+# 6 compiles, 1 failed with 1 error.
+# Compile of Divide_freg.v was successful.
