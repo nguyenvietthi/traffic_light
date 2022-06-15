@@ -12,7 +12,7 @@ module Traffic_Light(
     output       LY1   ,
     output       LY2   
     );
-wire clk1,rst,timeout25,timeout30,eLED01,eLED23;
+wire clk1,rst,timeout45,timeout75,timeout80,eLED01,eLED23;
 wire[4:0] Count;
 
 Divide_freg F1(
