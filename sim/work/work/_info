@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/work
 vDivide_freg
-!s110 1655240477
+!s110 1655302064
 !i10b 1
-!s100 ^GX85L`H2ac1=2oJioMUZ1
-Ig;W`=<BUDCLWVFBEO]mL_1
+!s100 =<9b;aWBnG@QfzFTk9=?Z1
+I[L4fM3PcH_@8WE4QoQ1T00
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1655240474
+w1655302054
 8D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Divide_freg.v
 FD:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Divide_freg.v
 L0 22
@@ -23,7 +23,7 @@ Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1655240477.000000
+!s108 1655302064.000000
 !s107 D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Divide_freg.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Divide_freg.v|
 !i113 1
@@ -31,7 +31,7 @@ Z3 o-work work
 Z4 tCvgOpt 0
 n@divide_freg
 vDowncounter
-Z5 !s110 1655240460
+!s110 1655301997
 !i10b 1
 !s100 YO<d`nQ58FTKY[bI21?=H2
 IYm`cLH4S[Q=oQI:BjECa^2
@@ -45,7 +45,7 @@ R2
 r1
 !s85 0
 31
-Z6 !s108 1655240460.000000
+Z5 !s108 1655301997.000000
 !s107 D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v|
 !i113 1
@@ -53,7 +53,7 @@ R3
 R4
 n@downcounter
 vLed7seg
-Z7 !s110 1655240461
+Z6 !s110 1655301998
 !i10b 1
 !s100 Wo[Xai09XjF8FHzRgAn@C0
 I4JNO_H2M66@Def0[d[Tz_2
@@ -67,7 +67,7 @@ R2
 r1
 !s85 0
 31
-Z8 !s108 1655240461.000000
+R5
 !s107 D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Led7seg.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Led7seg.v|
 !i113 1
@@ -75,7 +75,7 @@ R3
 R4
 n@led7seg
 vState
-R7
+R6
 !i10b 1
 !s100 M>GMCa7znAn[ji?L;ez5D2
 I0jY4On<ele6R^nY=UZ<1N0
@@ -89,7 +89,7 @@ R2
 r1
 !s85 0
 31
-R8
+Z7 !s108 1655301998.000000
 !s107 D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/State.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/State.v|
 !i113 1
@@ -98,15 +98,15 @@ R4
 n@state
 vtb
 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-R5
+R6
 !i10b 1
-!s100 i?e[aGo1I=lz4^M;RX_fV1
-I`E<Jj3MImBdSzY=`:aQ<B1
+!s100 bEP1O`S_f?YBkeGkIWe7`0
+I@RTae8V8nF]OD;Xc6o76d2
 R1
 !s105 tb_sv_unit
 S1
 R0
-w1655237544
+w1655301883
 8D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv
 FD:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv
 L0 2
@@ -114,20 +114,20 @@ R2
 r1
 !s85 0
 31
-R6
+R7
 !s107 D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv|
 !i113 1
 o-work work -sv
 R4
 vTraffic_Light
-R7
+R6
 !i10b 1
-!s100 9<_8Cac]>:_2cK:2c6PiM1
-I5OQN04@RQ_K?X<m5f8^Oa2
+!s100 Ii5G;[XYTJA]SDIaYHVA@0
+I63e_YWRGTCmI^lU]XHPXG3
 R1
 R0
-w1655240458
+w1655301736
 8D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v
 FD:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v
 L0 1
@@ -135,7 +135,7 @@ R2
 r1
 !s85 0
 31
-R8
+R7
 !s107 D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v|
 !i113 1

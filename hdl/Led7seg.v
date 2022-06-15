@@ -3,7 +3,7 @@ module Led7seg(
     input clk1,
     input eLED01,
     input eLED23,
-    input [4:0] Count,
+    input [6:0] Count,
     output reg [6:0] hex0,
     output reg [6:0] hex1,
     output reg [6:0] hex2,

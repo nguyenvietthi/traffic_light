@@ -20,15 +20,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module Divide_freg(
-    input clk30M,
+    input clk20M,
     input Reset,
     output reg clk1,
     output reg rst
     );
-localparam divide_count = 30000000;
-reg [31:0]count;
+localparam divide_count = 10;
+reg [31:0]count; //2^32
 
-always@(posedge clk30M , posedge Reset)
+always@(posedge clk20M , posedge Reset)
 begin
 	if(Reset)
 		begin

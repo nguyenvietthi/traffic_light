@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 module tb ();
-  logic       clk50M;
+  logic       clk20M;
   logic       Reset ;
   logic [6:0] HEX0  ;
   logic [6:0] HEX1  ;
@@ -13,21 +13,21 @@ module tb ();
   logic       LY1   ;
   logic       LY2   ;
 
-  always #10 clk50M = ~clk50M;
+  always #10 clk20M = ~clk20M;
 
   initial begin 
-    clk50M = 0;
+    clk20M = 0;
     Reset  = 0;
-    @(negedge clk50M);
+    @(negedge clk20M);
     Reset = 1;
-    @(negedge clk50M);
+    @(negedge clk20M);
     Reset = 0;
-    repeat(100000000) @(negedge clk50M);  
+    repeat(100000000) @(negedge clk20M);  
     $finish;
   end
 
   Traffic_Light DUT (
-    .clk50M (clk50M),
+    .clk20M (clk20M),
     .Reset  (Reset ),
     .HEX0   (HEX0  ),
     .HEX1   (HEX1  ),
