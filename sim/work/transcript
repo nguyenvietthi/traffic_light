@@ -152,3 +152,5 @@ restart
 # ** Warning: (vsim-3015) D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Traffic_Light.v(24): [PCDPC] - Port size (7) does not match connection size (5) for port 'Count'. The port definition is at: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v(7).
 #    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/F2 File: D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/hdl/Downcounter.v
 run -all
+# ** Note: $finish    : D:/OneDrive - Hanoi University of Science and Technology/NAM 4/traffic_light/sim/tb.sv(26)
+#    Time: 2000000040 ns  Iteration: 1  Instance: /tb
