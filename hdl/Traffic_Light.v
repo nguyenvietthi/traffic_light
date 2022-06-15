@@ -1,5 +1,9 @@
 module Traffic_Light(
+<<<<<<< HEAD
+    input        clk20M,
+=======
     input        clk30M,
+>>>>>>> fcc9df4d9238bf32eac93f082bded1939ebdc1b6
     input        Reset ,
     output [6:0] HEX0  ,
     output [6:0] HEX1  ,
@@ -16,7 +20,7 @@ wire clk1,rst,timeout45,timeout75,timeout80,eLED01,eLED23;
 wire[4:0] Count;
 
 Divide_freg F1(
-    .clk30M(clk30M),
+    .clk20M(clk20M),
     .Reset(Reset),
     .clk1(clk1), 
     .rst(rst)
