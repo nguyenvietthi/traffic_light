@@ -1,5 +1,5 @@
 module Traffic_Light(
-    input        clk50M,
+    input        clk30M,
     input        Reset ,
     output [6:0] HEX0  ,
     output [6:0] HEX1  ,
